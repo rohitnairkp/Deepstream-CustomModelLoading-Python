@@ -1,7 +1,17 @@
 # Deepstream-CustomModelLoading-Python
-> This repo consits of python code which will enable us to load the deepstream trt engine files of the models and run detections over images and draw bounding boxes.The model used here is https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/peoplenet
+This repo consits of python code which will enable us to load the deepstream trt engine files of the models and run detections over images and draw bounding boxes.
+
+> The model used here is https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/peoplenet
 
 We can also run inferences on other pretrained models available in NGC using this code.
+
+## Requirements:
+* opencv-python
+* matplotlib
+* numpy
+* pycuda
+* tensort
+* Pillow
 
 ## Usage:
 * Change the "trt_engine_path" to the path of the trt engine file of the deepstream model to be loaded for processing.
